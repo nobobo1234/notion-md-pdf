@@ -4,9 +4,7 @@
   "description": "Converts pages exported from Notion as Markdown into PDF files using the command line due to browser rendering issues.",
   "main": "index.js",
   "scripts": {
-    "start": "node ./index.js",
-    "postinstall": "node ./postinstall.js",
-    "postupdate": "node ./postinstall.js"
+    "start": "node ./index.js"
   },
   "bin": {
     "notion-md-pdf": "./index.js"
